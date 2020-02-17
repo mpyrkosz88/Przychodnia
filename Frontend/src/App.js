@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Navigation from './components/Navigation//Navigation';
 import Form from './components/Form/Form';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
     <Navigation />
     <Form />
 
