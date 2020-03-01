@@ -1,0 +1,22 @@
+.doc-item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+/*   
+  .doc-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+   */

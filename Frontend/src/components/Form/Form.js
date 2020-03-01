@@ -4,7 +4,7 @@ import classes from "./Form.module.scss";
 
 const form = () => {
     return (
-        <div className={classes.klasa}>
+        <div>
 
             <form>
                 <div className="form-group">
@@ -30,8 +30,8 @@ const form = () => {
                     <option value="3">4</option>
                 </select>
             </div>
-                <button type="submit" className="btn btn-primary mr-3">Dodaj</button>
-                <button type="submit" className="btn btn-primary ml-3">Anuluj</button>
+                <button type="submit" className="btn btn-primary mr-3">Edytuj</button>
+                <button type="submit" className="btn btn-primary ml-3">Usuń</button>
             </form>
         </div>
     )
