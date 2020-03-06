@@ -51,8 +51,8 @@ const addItem = () => {
                     </div>
                 </div>
             </div>
-            <button type="submit" className="btn btn-primary mr-3">Edytuj</button>
-            <button type="submit" className="btn btn-primary ml-3">Usuń</button>
+            <button type="submit" className="btn btn-primary mr-3">Dodaj</button>
+            <button type="submit" className="btn btn-primary ml-3">Anuluj</button>
         </article>
     )
 }
