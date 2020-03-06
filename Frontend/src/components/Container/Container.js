@@ -1,35 +1,43 @@
 import React from 'react'
 import Form from '../Form/Form';
 import Item from '../Item/Item';
+import AddItem from '../AddItem/AddItem';
 
 import './Container.css'; 
 
-const form = () => {
+const container = () => {
     return (
 
-        <div>
+        <div >
             <button className="btn btn-primary m-3">Dodaj lekarza</button>
-            <ul className="doc-item-list">
-                <li className="doc-item">
-                    <Form />
-
-                </li>
-                <li className="doc-item">
-                   <Form />
-
-                </li>
-                <li className="doc-item">
-                   <Form />
-
-                </li>
-                <li className="doc-item">
-                   
-
-                </li>
-            </ul>
-            <Item />
+            <div className="grid">
+            <AddItem/>
+            </div>
         </div>
     )
 }
 
-export default form;
+export default container;
+
+// <ul className="doc-item-list">
+// <li className="doc-item">
+//     <Form />
+
+// <Item />
+// <Item />
+// <Item />
+// <Item />
+// </li>
+// <li className="doc-item">
+//    <Form />
+
+// </li>
+// <li className="doc-item">
+//    <Form />
+
+// </li>
+// <li className="doc-item">
+   
+
+// </li>
+// </ul>
