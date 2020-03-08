@@ -12,6 +12,7 @@ const container = () => {
             <button className="btn btn-primary m-3">Dodaj lekarza</button>
             <div className="grid">
             <AddItem/>
+            {/* <Item /> */}
             </div>
         </div>
     )
@@ -23,7 +24,7 @@ export default container;
 // <li className="doc-item">
 //     <Form />
 
-// <Item />
+// 
 // <Item />
 // <Item />
 // <Item />

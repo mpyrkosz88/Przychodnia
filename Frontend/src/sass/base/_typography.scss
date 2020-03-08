@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    font-family: $secondFont;
+}
+
+//font sizes for different resolutions
+
+@media (min-width: 1601px){
+    html{
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1366px) and (max-width:1600px) {
+    html{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 800px) and (max-width:1365px) {
+    html{
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width:799px) {
+    html{
+      font-size: 14px;
+    }
+  }
+
+
+body {
+    max-width: 3360px;
+    height: 100%;
+}
+
+p {
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    width: 100%; 
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+h4{
+  font-size: 1rem;
+}
+h5{
+  font-size: 0.83rem;
+}
+h6{
+  font-size: 0.67rem;
+}
+
+
+img {
+    height: 100%;
+    width:100%;
+}
+
+//font sizes
+@for $i from 1 to 13 {
+    .fontSize-#{$i} {
+        font-size: 0.5rem * $i;
+    }
+}

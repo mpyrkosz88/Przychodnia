@@ -1,0 +1,118 @@
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+  }
+
+//create columns from 1 to 12
+@for $i from 1 to 13 {
+    .col-#{$i}, .col-sm-#{$i} {
+        width: ceil(((100% / 12) * $i)*10000)/10000; //round 3,33333 to 3,33334
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+//columns for small resolution <800px
+@media (max-width:799px) {
+    @for $i from 1 to 13 {
+        .col-sm-#{$i} {
+            width: 100%;
+            margin: 20px;
+            
+        }
+    }
+  }
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+
+// positioning
+.fixed {
+    position: fixed;
+    z-index: 100;
+}
+
+.relative {
+    position: relative;
+}
+
+// text changes
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.text-align-start {
+    text-align: start;
+}
+
+//text changes for small resolution < 800px
+
+@media (min-width:800px) {
+        .text-align-end-sm {
+            text-align: end;
+        }
+        
+        .text-align-start-sm {
+            text-align: start;
+        }
+  }
+//align itmes for small resolution < 800px
+
+  @media (min-width:800px) {
+    .align-items-start-sm {
+        align-items: flex-start;
+    }
+    
+    .align-items-end-sm {
+        align-items: flex-end;
+    }
+}

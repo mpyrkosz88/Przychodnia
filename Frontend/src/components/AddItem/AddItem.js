@@ -1,16 +1,17 @@
 import React from 'react'
-import './Item.css';
+import './AddItem.css';
 
+import Button from '../UI/Button/Button';
 import addImage from '../../assets/Add.jpg'
 
 const addItem = () => {
     return (
         <article className="doc-card">
-            <div>
                 <div className="row">
                     <div className="col-4">
-                        <figure className="card-img">
-                            <input type="image" id="image" alt="addImage" src={addImage} />
+                        <figure className="add-card-img">
+                            <label for="image">Choose a file</label>
+                            <input type="file" id="image" name="image" alt="addImage" />
                         </figure>
                     </div>
                     <div className="col-8">
@@ -50,9 +51,14 @@ const addItem = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row justify-content-center">
+                <Button color="primary" type="submit">
+                Dodaj  
+                </Button>
+                <Button color="primary" type="submit">
+                Anuluj
+                </Button>
             </div>
-            <button type="submit" className="btn btn-primary mr-3">Dodaj</button>
-            <button type="submit" className="btn btn-primary ml-3">Anuluj</button>
         </article>
     )
 }

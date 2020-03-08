@@ -1,0 +1,51 @@
+.Button {
+    border:none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    font-size:1.1rem;
+    cursor: pointer;
+    margin:0.5rem;
+    color: white;
+    &:focus, &:active {
+        outline: none;
+    }
+    &:hover {
+        filter: brightness(110%);
+        
+    }
+}
+
+.Primary {
+    background-color: #0069D9;
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba(#0069D9, 0.5);
+    }
+}
+
+.Secondary {
+    background-color: #5A6268;
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba(#5A6268, 0.5);
+    }
+}
+
+.Success {
+    background-color: #218838;
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba(#218838, 0.5);
+    }
+}
+
+.Danger {
+    background-color: #C82333;
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba(#C82333, 0.5);
+    }
+}
+
+.Warning {
+    background-color: #E0A800;
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba(#E0A800, 0.5);
+    }
+}

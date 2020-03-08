@@ -1,0 +1,52 @@
+@for $i from 1 to 11 {
+    .margin-#{$i} {
+        margin: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .margin-v-#{$i} {
+        margin-top: 0.5rem * $i;
+        margin-bottom: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .margin-t-#{$i} {
+        margin-top: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .margin-b-#{$i} {
+        margin-bottom: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .margin-h-#{$i} {
+        margin-left: 0.5rem * $i;
+        margin-right: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .padding-#{$i} {
+        padding: 0.5rem * $i;
+    }
+}
+
+@for $i from 1 to 11 {
+    .padding-b-#{$i} {
+        padding-bottom: 0.5rem * $i;
+    }
+}
+
+@media (min-width:800px) {
+    @for $i from 1 to 11 {
+        .margin-sm-h-#{$i} {
+            margin-left: 0.5rem * $i;
+            margin-right: 0.5rem * $i;
+        }
+    }
+  }
