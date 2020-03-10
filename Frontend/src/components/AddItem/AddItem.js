@@ -15,11 +15,11 @@ const addItem = () => {
                         </figure>
                     </div>
                     <div className="col-8">
-                        <div>
+                        <div className="input-container">
                             <label for="name">Imię i nazwisko</label>
                             <input type="text" className="form-control" id="name" aria-describedby="nameHelp" placeholder="Name" />
                         </div>
-                        <div>
+                        <div className="input-container">
                             <label for="inlineFormCustomSelect">Specjalizacja</label>
                             <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
                                 <option selected>Internista</option>
@@ -28,7 +28,7 @@ const addItem = () => {
                                 <option value="3">Chirurg</option>
                             </select>
                         </div>
-                        <div>
+                        <div className="input-container">
                             <label for="inlineFormCustomSelect">Gabinet nr</label>
                             <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
                                 <option selected>1</option>
