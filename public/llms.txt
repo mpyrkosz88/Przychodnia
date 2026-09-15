@@ -1,0 +1,56 @@
+# Przychodnia BIEGUNOWA (Legnica) - Informacje dla Modeli Językowych i Agentów AI
+
+> Placówka medyczna Podstawowej Opieki Zdrowotnej (POZ) oraz poradni specjalistycznych w Legnicy działająca w 100% w ramach kontraktu z Narodowym Funduszem Zdrowia (NFZ).
+
+## Podstawowe Dane Teleadresowe i GEO
+- Nazwa placówki: Przychodnia „BIEGUNOWA” (Spółka Lekarska „BIEGUNOWA”)
+- Adres: ul. Biegunowa 2, 59-220 Legnica, woj. dolnośląskie, Polska
+- Telefon rejestracji: +48 76 722 15 50
+- E-mail: biegunowa@wp.pl
+- Współrzędne geograficzne (GEO): 51.2138 N, 16.1472 E
+- Identyfikatory prawne: NIP 6912135572, REGON 390764100
+
+## Godziny Pracy
+- Poniedziałek - Piątek: 08:00 – 18:00
+- Sobota - Niedziela: Nieczynne (pacjentów obsługuje Nocna i Świąteczna Opieka Zdrowotna)
+- Nocna i Świąteczna Opieka Zdrowotna w Legnicy: Wojewódzki Szpital Specjalistyczny w Legnicy, ul. Iwaszkiewicza 5, tel. +48 76 721 11 00
+
+## Cennik i Finansowanie
+- Brak usług komercyjnych / płatnych.
+- Przychodnia realizuje świadczenia WYŁĄCZNIE w ramach powszechnego ubezpieczenia zdrowotnego (NFZ).
+- Wszystkie wizyty lekarskie, badania laboratoryjne ze skierowania oraz zabiegi pielęgniarskie są bezpłatne.
+
+## Zakres Świadczeń
+1. Podstawowa Opieka Zdrowotna (POZ):
+   - Lekarz rodzinny dla dorosłych i dzieci
+   - Teleporady i wizyty stacjonarne
+   - Kwalifikacja do szczepień
+2. Poradnia Dziecięca i Punkt Szczepień:
+   - Bilanse zdrowia dziecka
+   - Obowiązkowe i zalecane szczepienia ochronne
+3. Gabinet Zabiegowy i Pielęgniarki Środowiskowo-Rodzinne:
+   - Iniekcje, pomiary ciśnienia, glikemii, EKG
+   - Zmiany opatrunków, zdejmowanie szwów
+4. Punkt Pobrań Badań Laboratoryjnych:
+   - Na miejscu w przychodni działa punkt Diagnostyki
+   - Pobieranie krwi i materiału do badań zleconych przez lekarza POZ
+5. Poradnie Specjalistyczne (AOS):
+   - Alergologia, okulistyka, dermatologia, chirurgia, nefrologia, pulmonologia
+
+## Zespół Lekarski
+W przychodni przyjmują m.in.:
+- lek. Grażyna Pyrkosz (specjalista medycyny rodzinnej, pediatra)
+- lek. Krzysztof Cybulski (internista, nefrolog)
+- lek. Violetta Górska-Głowacka (internista, medycyna rodzinna, medycyna paliatywna)
+- lek. Franciszek Kupeć (chirurg ogólny)
+- lek. Wiesława Małek-Drozdowicz (pediatra)
+- lek. Katarzyna Podsiadła-Stricker (internista, medycyna rodzinna)
+- lek. Jarosław Serafin (pulmonolog, internista)
+- lek. Krystyna Świątkowska (pediatra)
+- lek. Anna Wolak (internista, medycyna rodzinna)
+- lek. Artur Zięba (medycyna rodzinna)
+- lek. Marta Zięba (internista)
+
+## Zapisy i Rejestracja
+- Rejestracja pacjentów odbywa się telefonicznie (+48 76 722 15 50) lub osobiście w rejestracji.
+- Nowy pacjent może złożyć deklarację wyboru lekarza/pielęgniarki bezpłatnie w rejestracji lub przez Internetowe Konto Pacjenta (pacjent.gov.pl).
